@@ -5,6 +5,6 @@ my research projects.
 
 ## tex
 
-- [style\_sheet](tex/style_sheet/): a style guide for writing in Nuclear Engineering
+- [style\_sheet](style_sheet/): a style guide for writing in Nuclear Engineering
 
 - [sty](tex/sty/): the LaTeX style files I use for publications, papers, and homework.

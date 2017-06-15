@@ -216,7 +216,7 @@ TSWLatexianTemp*
 # auto folder when using emacs and auctex
 /auto/*
 /tex/sty/auto/*
-/tex/style_sheet/auto/*
+/style_sheet/auto/*
 
 # expex forward references with \gathertags
 *-tags.tex
