@@ -217,7 +217,10 @@ TSWLatexianTemp*
 /auto/*
 /tex/sty/auto/*
 /style_sheet/auto/*
+/tex/bib/auto/*
 
 # expex forward references with \gathertags
 *-tags.tex
 
+\#*
+.\#*
