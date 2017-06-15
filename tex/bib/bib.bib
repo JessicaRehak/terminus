@@ -1,10 +1,55 @@
 
+%% ===== TEXTBOOKS ===================================================
+
+@Book{lewis1993,
+  author = 	 {{E. E. Lewis and W.F. Miller, Jr.}},
+  title = 	 {{Computational Methods of Neutron Transport}},
+  publisher = 	 {American Nuclear Society},
+  year = 	 {1993},
+}
+
+@Book{lux1991,
+  author = 	 {Lux, Iv\'{a}n and Koblinger, L\'{a}szl\'{o}},
+  title = 	 {{Monte Carlo Particle Transport Methods: Neutron and Photon Calculations}},
+  publisher = 	 {CRC Press},
+  year = 	 {1991},
+}
+
+@Book{taylor1997,
+  author = 	 {{John. R. Taylor}},
+  title = 	 {{An Introduction to Error Analysis}},
+  publisher = 	 {{University Science Books}},
+  year = 	 1997,
+  edition = 	 {{Second}},
+}
+
+%% ===== MONTE CARLO ===================================================
+
+@Article{metropolis1949,
+  author = 	 {{N. Metropolis and S. Ulam}},
+  title = 	 {{The Monte Carlo Method}},
+  journal = 	 {{Journal of the American Statistical Association}},
+  year = 	 {1949},
+  volume = 	 {44},
+  number = 	 {247},
+  pages = 	 {335-341},
+}
+
+%% ===== SERPENT =====================================================
+
 @techreport {VTT-R-00371-14,
   author = {{Toni Kaltiaisenaho}},
   title = {{Statistical Tests and the Underestimation of Variance in Serpent 2}},
   number = {VTT-R-00371-14},
   institution = {{VTT Technical Research Centre of Finland}},
   year = {2014},
+  }
+
+@misc {serpent_web,
+  author = {{VTT Technical Research Centre of Finland}},
+  title = {{VTT Serpent}},
+  howpublished = {\url{http://montecarlo.vtt.fi/}},
+  note = {Accessed: 2017 April 18}
   }
 
 @article{gaston2009,
@@ -50,10 +95,6 @@ author = "Derek Gaston and Chris Newman and Glen Hansen and Damien Lebrun-Grandi
 }
 
 
-
-
-
-
 @Article{leppanen2013,
   author = 	 {{J}aakko {L}epp\"{a}nen},
   title = 	 {{Modeling of Nonuniform Density Distributions in the Serpent 2 Monte Carlo Code}},
@@ -68,31 +109,7 @@ author = "Derek Gaston and Chris Newman and Glen Hansen and Damien Lebrun-Grandi
   OPTannote = 	 {}
 }
 
-@Book{lewis1993,
-  author = 	 {{E. E. Lewis and W.F. Miller, Jr.}},
-  title = 	 {{Computational Methods of Neutron Transport}},
-  publisher = 	 {American Nuclear Society},
-  year = 	 {1993},
-}
-
-@Book{lux1991,
-  author = 	 {Lux, Iv\'{a}n and Koblinger, L\'{a}szl\'{o}},
-  title = 	 {{Monte Carlo Particle Transport Methods: Neutron and Photon Calculations}},
-  publisher = 	 {CRC Press},
-  year = 	 {1991},
-}
-
-@Article{metropolis1949,
-  author = 	 {{N. Metropolis and S. Ulam}},
-  title = 	 {{The Monte Carlo Method}},
-  journal = 	 {{Journal of the American Statistical Association}},
-  year = 	 {1949},
-  volume = 	 {44},
-  number = 	 {247},
-  pages = 	 {335-341},
-}
-
-
+%% ===== WDT ===================================================================
 
 @Article{morgan2015,
   author = 	 {{L.W.G.} {M}organ and {D.} {K}otlyar},
@@ -115,21 +132,6 @@ author = "Derek Gaston and Chris Newman and Glen Hansen and Damien Lebrun-Grandi
   year = 	 {2016},
   number = 	 {{INL/EXT-16-39120}},
   month = 	 {June},
-}
-
-@misc {serpent_web,
-  author = {{VTT Technical Research Centre of Finland}},
-  title = {{VTT Serpent}},
-  howpublished = {\url{http://montecarlo.vtt.fi/}},
-  note = {Accessed: 2017 April 18}
-  }
-
-@Book{taylor1997,
-  author = 	 {{John. R. Taylor}},
-  title = 	 {{An Introduction to Error Analysis}},
-  publisher = 	 {{University Science Books}},
-  year = 	 1997,
-  edition = 	 {{Second}},
 }
 
 @misc {webtreat,
@@ -155,22 +157,9 @@ author = "Derek Gaston and Chris Newman and Glen Hansen and Damien Lebrun-Grandi
 
 %% ===== FINITE ELEMENT METHODS ======================================
 
-@Article{Ragusa_2010,
+@Article{ragusa2010,
   author       = {Ragusa, Jean C. and Wang, Yaqi},
-  title	       = {A two-mesh adaptive mesh refinement technique for
-                  <mml:math altimg=“si4.gif” display=“inline”
-                  overflow=“scroll”
-                  xmlns:xocs=“http://www.elsevier.com/xml/xocs/dtd”
-                  xmlns:xs=“http://www.w3.org/2001/XMLSchema”
-                  xmlns:xsi=“http://www.w3.org/2001/XMLSchema-instance”
-                  xmlns=“http://www.elsevier.com/xml/ja/dtd”
-                  xmlns:ja=“http://www.elsevier.com/xml/ja/dtd”
-                  xmlns:mml=“http://www.w3.org/1998/Math/MathML”
-                  xmlns:tb=“http://www.elsevier.com/xml/common/table/dtd”
-                  xmlns:sb=“http://www.elsevier.com/xml/common/struct-bib/dtd”
-                  xmlns:ce=“http://www.elsevier.com/xml/common/dtd”
-                  xmlns:xlink=“http://www.w3.org/1999/xlink”
-                  xmlns:cals=“http://www.elsevier.com/xml/common/cals/dtd”><mml:msub><mml:mrow><mml:mi>S</mml:mi></mml:mrow><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:msub></mml:math>
+  title	       = {A two-mesh adaptive mesh refinement technique for S_N
                   neutral-particle transport using a higher-order
                   DGFEM},
   year	       = 2010,
