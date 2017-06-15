@@ -1,0 +1,30 @@
+\ProvidesPackage{commands}
+
+%==== NEW TEX COMMANDS  =============================================
+%== Environments
+
+%== Commands
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert} % Norm
+\newcommand{\ele}[2]{$^{#2}$#1} % Element name formatting
+\newcommand{\ordo}[1]{\mathcal{O}(#1)} % Order
+\newcommand{\fl}[1]{\text{fl}(#1)} % Float, with parenthesis
+\newcommand{\emach}[0]{\epsilon_{\text{machine}}} % Epsilon machine
+
+% Matrices and vectors
+\newcommand{\mat}[1]{\mathbf{#1}} % matrices bold
+\newcommand{\wt}[1]{\widetilde{#1}} % tilde
+\newcommand{\wtd}[1]{\dot{\widetilde{#1}}} % tilde and dot
+\newcommand{\wtv}[1]{\widetilde{\vec{#1}}} % tilde vector
+\newcommand{\wtm}[1]{\widetilde{\mat{#1}}} % tilde matrix
+\newcommand{\wtdv}[1]{\dot{\widetilde{\vec{#1}}}} % tilde vector and
+
+% Transport eq
+\newcommand{\oh}[0]{\hat{\Omega}}
+\newcommand{\spz}[2]{$\Sigma_{#1 \to #2}$}
+
+% Redefine det and vector
+\renewcommand{\det}[1]{\text{det}(#1)}
+\renewcommand{\vec}[1]{\mathbf{#1}} % Make vectors bold
+
+% Matrix or vector dimension
+\newcommand{\ins}[3]{\in \mathbb{#1}^{#2 \times #2}}

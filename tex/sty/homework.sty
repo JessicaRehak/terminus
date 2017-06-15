@@ -1,0 +1,43 @@
+\ProvidesPackage{homework}
+
+% If called with [matlab] option, include matlab formatting
+\newif\if@matlab
+\@matlabfalse
+\DeclareOption{matlab}{
+  \@matlabtrue
+}
+
+\DeclareOption{noindent}{
+  \setlength\parindent{0pt}
+}
+
+\ProcessOptions\relax
+
+\usepackage{basic}
+
+% Formatting
+\usepackage{geometry} %Allows setting the margins
+\usepackage{framed} %Adds the framed environment
+\usepackage{fancyhdr}
+\usepackage{datetime} %For formatting of header date
+\usepackage{ulem} %Makes strike-through lines with \sout{}
+\usepackage{multirow} %Support multi-row in tables
+\usepackage[table,xcdraw]{xcolor} %Support colored rows in tables
+\usdate %Month, Dth, YYYY
+\geometry{
+  letterpaper,
+  left=1in,
+  right=1in,
+  bottom=1in,
+  top=1in}
+\pagestyle{fancy}
+
+%==== NEW TEX COMMANDS  =============================================
+
+%== Commands
+\usepackage{commands}
+
+% If matlab is called, define the settings for listings
+\if@matlab
+\usepackage{matlab}
+\fi
