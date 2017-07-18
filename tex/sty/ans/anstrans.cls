@@ -64,9 +64,9 @@
 
 %% For more aesthetically pleasing but looser spacing (more pages),
 %% comment these lines:
-\AtBeginDocument{\setlength{\baselineskip}{11pt}}
-\setlength{\lineskip}{0pt plus 2pt minus 2pt}
-\setlength{\parskip}{0pt}
+%% \AtBeginDocument{\setlength{\baselineskip}{11pt}}
+%% \setlength{\lineskip}{0pt plus 2pt minus 2pt}
+%% \setlength{\parskip}{0pt}
 
 %%%%%%%%%%% SECTIONING %%%%%%%%%%%
 \setcounter{secnumdepth}{-2} %hide all section heading numbers

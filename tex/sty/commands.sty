@@ -24,7 +24,17 @@
 
 % Redefine det and vector
 \renewcommand{\det}[1]{\text{det}(#1)}
-\renewcommand{\vec}[1]{\mathbf{#1}} % Make vectors bold
+%\renewcommand{\vec}[1]{\mathbf{#1}} % Make vectors bold
+\renewcommand{\vec}[1]{\bm{#1}} % Make vectors bold
+\newcommand{\set}[1]{\bm{\mathrm{#1}}} % Set notation, bold
+                                % non-italic, roman
 
 % Matrix or vector dimension
 \newcommand{\ins}[3]{\in \mathbb{#1}^{#2 \times #2}}
+
+% Majorant cross-section
+\newcommand{\Sigmamaj}{\Sigma_{\text{maj}}}
+
+% Weighted Delta-tracking
+\newcommand{\nfom}{FOM$_{\text{norm}}$}
+\newcommand{\mnfom}{\text{FOM}_{\text{norm}}}
